@@ -1,0 +1,13 @@
+.conteiner {
+    background-color: aqua;
+    display: flex;
+    /* flex-direction row e flex wrap nowrap é o padrão sem definir nada */
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item {
+    background-color: rgb(129, 129, 252);
+    border: 1px solid black;
+    text-align: center;
+}

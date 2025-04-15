@@ -1,0 +1,13 @@
+.conteiner {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    background-color: rgb(129, 129, 252);
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
