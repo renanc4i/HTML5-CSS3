@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --tom-roxo: #393655;
+    --tom-cinza: #faf9fb;
+}
+
+body {
+    background-color: var(--tom-cinza);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--tom-roxo);
+    height: 60px;
+    width: 90vw;
+    color: white;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}

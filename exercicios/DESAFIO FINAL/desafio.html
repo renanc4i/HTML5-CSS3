@@ -7,24 +7,74 @@
     <link rel="stylesheet" href="portifolio.css">
 </head>
 <body>
-    
+    <header>
+        <h2>Renan Dev</h2>
+        <nav>
+            <ul>
+                <li><a href="#perfil">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="perfil">
+        <img src="#" alt="Foto do Dev">
+        <div class="apre">
+            <h1>Sobre mim</h1>
+            <p>Olá! sou o Renan, estudante de desenvolvimento web</p>
+            <p>Atualmente estou aprendendo HTML, CSS e JavaScript com o objetivo de desenvolver aplicações web</p>
+            <p>Este é o meu portifólio!</p>
+        </div>
+    </section>
 
+    <main>
+        <h2>Projetos</h2>
+        <div id="projetos">
+            <div>
+                <img src="#" alt="Imagem do projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Um projeto simples feito com HTML e CSS</p>
+                <a href="#" class="botao">Ver mais</a>
+            </div>
+            <div>
+                <img src="#" alt="Imagem do projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Um layout responsivo utilizando CSS</p>
+                <a href="#" class="botao">Ver mais</a>
+            </div>
+            <div>
+                <img src="#" alt="Imagem do projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Landing page para um produto fictício</p>
+                <a href="#" class="botao">Ver mais</a>
+            </div>
+        </div>
+    </main>
 
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#">
+            <label for="name">Seu nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
 
+            <label for="email">Seu e-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required>
 
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
 
+            <button>Enviar</button>
+        </form>
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-    <script type="module" src=""></script>
+    <footer>
+        <h2>Siga-me nas redes:</h2>
+        <div id="redes">
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+            <a href="#">Github</a>
+        </div>
+    </footer>
 </body>
 </html>
