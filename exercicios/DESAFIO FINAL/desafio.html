@@ -8,65 +8,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h2>Renan Dev</h2>
-        <nav>
-            <ul>
-                <li><a href="#perfil">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contatos</a></li>
-            </ul>
-        </nav>
+        <div class='container'>
+            <h1>Renan Dev</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="perfil">
-        <img src="imagens/minha-foto.jpg" alt="Foto do Dev">
-        <div class="apre">
-            <h1>Sobre mim</h1>
-            <p>Olá! sou o Renan, estudante de desenvolvimento web</p>
-            <p>Atualmente estou aprendendo HTML, CSS e JavaScript com o objetivo de desenvolver aplicações web</p>
-            <p>Este é o meu portifólio!</p>
+    <section id="sobre">
+        <div class="conttainer sobre">
+            <img src="imagens/minha-foto.jpg" alt="Foto do desenvolvedor">
+            <div>
+                <h2>Sobre mim</h2>
+                <p>Olá! Eu sou o Renan, estudante de desenvolvimento web e apaixonado por tecnologia.</p>
+                <p>Atualmente estou aprendendo HTML, CSS e JavaScript com foco em construir aplicações modernas.</p>
+                <p>Este é meu portfólio pessoal onde compartilho meus projetos e aprendizados.</p>
+            </div>
         </div>
     </section>
 
-    <main>
-        <h2>Projetos</h2>
-        <div id="projetos">
-            <div>
-                <img src="#" alt="Imagem do projeto 1">
-                <h3>Projeto 1</h3>
-                <p>Um projeto simples feito com HTML e CSS</p>
-                <a href="#" class="botao">Ver mais</a>
-            </div>
-            <div>
-                <img src="#" alt="Imagem do projeto 2">
-                <h3>Projeto 2</h3>
-                <p>Um layout responsivo utilizando CSS</p>
-                <a href="#" class="botao">Ver mais</a>
-            </div>
-            <div>
-                <img src="#" alt="Imagem do projeto 3">
-                <h3>Projeto 3</h3>
-                <p>Landing page para um produto fictício</p>
-                <a href="#" class="botao">Ver mais</a>
+    <main id="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="#" alt="Imagem do projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Um projeto simples feito com HTML e CSS</p>
+                    <a href="#" class="botao">Ver mais</a>
+                </div>
+                <div class="card">
+                    <img src="#" alt="Imagem do projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Um layout responsivo utilizando CSS</p>
+                    <a href="#" class="botao">Ver mais</a>
+                </div>
+                <div class="card">
+                    <img src="#" alt="Imagem do projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Landing page para um produto fictício</p>
+                    <a href="#" class="botao">Ver mais</a>
+                </div>
             </div>
         </div>
     </main>
 
     <section id="contato">
-        <h2>Contato</h2>
-        <form action="#">
-            <label for="name">Seu nome:</label>
-            <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
-
-            <label for="email">Seu e-mail:</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required>
-
-            <label for="mensagem">Sua mensagem:</label>
-            <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
-
-            <button>Enviar</button>
-        </form>
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#">
+                <label for="name">Seu nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                <label for="email">Seu e-mail:</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required>
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -77,5 +83,6 @@
             <a href="#">Github</a>
         </div>
     </footer>
+
 </body>
 </html>
