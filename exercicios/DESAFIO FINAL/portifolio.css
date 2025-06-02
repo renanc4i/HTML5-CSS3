@@ -7,7 +7,7 @@
 
 :root {
     --tom-roxo: #393655;
-    --tom-cinza: #faf9fb;
+    --tom-cinza: #f0f0f0;
 }
 
 body {
@@ -17,13 +17,72 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--tom-roxo);
     height: 60px;
-    width: 90vw;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+section#perfil {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.apre h1, p {
+    padding: 10px
+}
+section#perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+main {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+section#contato {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+footer{
+    background-color: var(--tom-roxo);
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+div#redes {
     color: white;
 }
 
-header > nav > ul > li > a {
-    text-decoration: none;
-    color: white;
+.container {
+    width: 90vw;
+    margin: 20px auto 0;
 }
+
+
